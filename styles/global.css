@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+:root {
+  --timeline-color: rgba(0, 63, 92, 0.7);
+  --blue: rgb(0, 63, 92);
+  --light-blue: rgb(27, 152, 245);
+  --dark-blue: rgb(16, 24, 64);
+  --grey: rgb(66, 90, 112);
+  --grey-blue: rgba(66, 90, 112, 0.7);
+  --light-grey: rgb(240, 242, 245);
+  --black: rgb(38, 44, 48);
+  --white: white;
+}

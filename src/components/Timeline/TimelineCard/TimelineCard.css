@@ -1,0 +1,62 @@
+.outer-container-card {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  max-height: 4rem;
+
+  padding: 0.75rem;
+
+  border: 1px solid var(--grey-blue);
+  border-radius: 1rem;
+
+  background-color: var(--white);
+
+  overflow: hidden;
+}
+
+.outer-container-card p {
+  font-size: 0.75rem !important;
+  margin: unset !important;
+  text-align: left;
+  color: var(--grey) !important;
+}
+
+.upper-row-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.data-row-card {
+  margin: 0.75rem 0 0 0;
+  align-self: flex-start;
+}
+
+.data-row-card p {
+  font-size: 0.9rem !important;
+  color: var(--black) !important;
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    max-width: 0rem;
+  }
+
+  100% {
+    opacity: 1;
+    max-width: 15rem;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+    max-width: 15rem;
+  }
+
+  100% {
+    opacity: 0;
+    max-width: 0rem;
+  }
+}

@@ -1,6 +1,31 @@
 > [!IMPORTANT]
 > If you have technical challenges with completing the task, you can contact Juho via email at juho.enala@nocfo.io. However, note that the task should be returned to Kiira, her email and instructions for returning the assignment are at the end of these instructions.
 
+# My solution
+
+Code quality:
+
+- Prettier for formatting
+- Eslint for code smells
+- New 'styles' folder with global css variables
+- New 'common' folder to store common helper functions
+- Timeline component split into smaller components
+- Used TypeScript to add type safety to props
+
+UI/UX:
+
+- Component is fully responsive to all screens wider than 300px
+- Same color theme and fonts as NOCFO has
+- Tried to encapsulate the NOCFO feel to the component
+- Displays different color on the icon based on the severity of the alert
+- Latest alert shown first
+- Switch to toggle all of the alerts at once
+- Displaying less information on the first view, clicking the alert more information is shown
+
+Other:
+
+- Tried to use as few libraries as possible thus only icons are from external library
+
 # NOCFO Homework Assignment
 
 Hi there, and thank you for showing interest in our company! The homework assignment is built on top of [Storybook](https://storybook.js.org/), so first, you need to install the dependencies and start the Storybook server. Then, you will see the instructions for the actual task. Let's get started:

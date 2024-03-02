@@ -1,0 +1,14 @@
+.timeline-icon {
+  display: flex;
+  align-items: center;
+  max-width: 3rem;
+  max-height: 3rem;
+
+  padding: 0.2rem;
+
+  border-radius: 100%;
+  border-color: var(--timeline-color);
+  border-width: 2px;
+  border-style: solid;
+  background-color: var(--white);
+}
